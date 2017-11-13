@@ -85,7 +85,7 @@ ADD raiden_pm2.json /blockchain/raiden_pm2.json
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 #raiden
-RUN git clone https://git.coding.net/freeher107/raiden.git
+RUN git clone https://github.com/itering/raiden
 
 RUN pip install coincurve==4.5.1
 
