@@ -1,0 +1,13 @@
+[
+  {
+    "name"              : "raiden",
+    "script"            : "/usr/local/bin/raiden",
+    "args"              : "--keystore-path /blockchain/parityStore/keys/test --password-file /blockchain/pass --address 0x00a1537d251a6a4c4effab76948899061fea47b9 --eth-rpc-endpoint http://do.itering.com:8545",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "none",
+    "exec_mode"         : "fork_mode"
+  }
+]
