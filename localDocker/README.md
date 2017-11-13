@@ -9,7 +9,7 @@
 
     $ docker run -it -v {$LocalKeyStorePath}:/blockchain/parityStore  -p 5002:80 raiden bash
     
-    $ echo '123' >> pass
+    $ echo {$YourAddressPassword} >> pass
     
     $ nginx
     
